@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Raffafe.arte – Arte e Educação Criativa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-pagina="home">
+
+  <header class="topo">
+    <label for="menu-control" class="menu-toggle" aria-label="Abrir menu">☰</label>
+
+    <h1>Raffafe.arte</h1>
+    <p>
+      Arte e Educação Criativa<br>
+      Te ajudo a tornar suas aulas mais criativas com atividades artísticas
+      e materiais didáticos para o ano todo.
+    </p>
+  </header>
+
+  <input type="checkbox" id="menu-control" hidden>
+
+  <div class="layout">
+
+    <!-- MENU LATERAL -->
+    <nav class="menu-lateral">
+      <ul>
+        <li><a href="index.html" class="ativo">Página inicial</a></li>
+        <li><a href="datas.html">Datas Comemorativas</a></li>
+        <li><a href="conscientizacao.html">Conscientização & Cuidado</a></li>
+        <li><a href="volta.html">Volta às Aulas</a></li>
+        <li><a href="jogos.html">Jogos</a></li>
+        <li><a href="kits.html">Kits para Sala</a></li>
+        <li><a href="criacao.html">Criações Artísticas</a></li>
+        <li><a href="acolhe.html">Arte que Acolhe</a></li>
+        <li><a href="livros.html">Livros</a></li>
+
+        <!-- BLOCO DE CONTATO -->
+        <li class="menu-contato">
+          <p>Precisa de algo que não está aqui?</p>
+          <a
+            href="https://wa.me/351910202328?text=Olá!%20Não%20encontrei%20o%20material%20que%20procuro%20no%20site%20e%20gostaria%20de%20ajuda."
+            target="_blank"
+            class="botao-contato"
+          >
+            Fale comigo
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="conteudo">
+
+      <section class="secao-mes">
+        <h2 id="titulo-mes-atual"></h2>
+        <div id="vitrine-mes-atual" class="vitrine"></div>
+      </section>
+<br>
+<br>
+      <h3 class="pensando-mes">
+        Pensando no próximo mês desde já
+      </h3>
+<br>
+      <section class="secao-mes">
+        <h2 id="titulo-proximo-mes"></h2>
+        <div id="vitrine-proximo-mes" class="vitrine"></div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

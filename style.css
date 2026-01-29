@@ -1,0 +1,395 @@
+/* =====================================================
+   RESET GLOBAL
+===================================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+
+/* =====================================================
+   FUNDO GERAL
+===================================================== */
+body {
+  background: url("assets/fundo-topo.png") repeat-y top center;
+  background-size: 100% auto;
+  color: #3f3f3f;
+}
+
+/* =====================================================
+   TOPO
+===================================================== */
+.topo {
+  padding: 60px 40px;
+  text-align: center;
+  background: url("assets/fundo-topo.png") no-repeat top center;
+  background-size: 100% auto;
+}
+
+.topo h1 {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+  color: #3a3a3a;
+}
+
+.topo p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* =====================================================
+   LAYOUT BASE
+===================================================== */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+/* =====================================================
+   MENU LATERAL — DESKTOP
+===================================================== */
+.menu-lateral {
+  width: 260px;
+  min-height: 100vh;
+  padding: 40px 25px;
+  background: url("assets/menu-lateral.png") repeat-y top center;
+  background-size: 100% auto;
+}
+
+.menu-lateral ul {
+  list-style: none;
+}
+
+.menu-lateral li {
+  margin-bottom: 22px;
+}
+
+.menu-lateral a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #5a5a5a;
+  transition: color 0.3s;
+}
+
+.menu-lateral a:hover {
+  color: #8a7bb8;
+}
+
+.menu-lateral a.ativo {
+  color: #7a6bb0;
+  font-weight: 500;
+}
+
+
+
+
+/* =====================================================
+   BOTÃO MENU HAMBÚRGUER (ESCONDIDO NO DESKTOP)
+===================================================== */
+.menu-toggle {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+/* =====================================================
+   CONTEÚDO
+===================================================== */
+.conteudo {
+  flex: 1;
+  padding: 60px;
+  background: rgba(255, 255, 255, 0.75);
+  max-width: 1100px;
+}
+
+.conteudo h2 {
+  margin-bottom: 35px;
+  font-weight: 500;
+  color: #3a3a3a;
+}
+
+/* =====================================================
+   VITRINE
+===================================================== */
+.vitrine {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 220px);
+  gap: 32px;
+}
+
+
+/* =====================================================
+   CARD
+===================================================== */
+.card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 14px;
+  padding: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+
+  height: 420px; /* ← valor mágico, pode ajustar */
+}
+
+
+.card .imagem {
+  width: 100%;
+  background: #f3f3f3;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  height: 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* NÃO distorce */
+  border-radius: 12px;
+}
+
+.card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 0.82rem;
+  line-height: 1.35;
+  margin-bottom: 10px;
+
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* máximo 3 linhas */
+  -webkit-box-orient: vertical;
+}
+
+
+.preco {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: auto;
+  margin-bottom: 10px; /* ← AQUI está o respiro */
+  color: #3a3a3a;
+}
+
+/* =====================================================
+   BOTÃO
+===================================================== */
+.botao {
+  width: 100%;              /* ocupa toda a largura do card */
+  text-align: center;
+
+  font-size: 0.75rem;
+  padding: 10px 0;
+
+  background: #7fa1c3;
+  color: #fff;
+  text-decoration: none;
+
+  border-radius: 999px;     /* bem arredondado */
+  font-weight: 500;
+
+  transition: 
+    background 0.3s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+/* =====================================================
+   RESPONSIVO — MOBILE
+===================================================== */ 
+@media (max-width: 1024px) {
+
+  .conteudo {
+    max-width: 100%;
+    padding: 40px 32px;
+  }
+
+  .vitrine {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+  }
+
+  .card {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* MOSTRA BOTÃO HAMBÚRGUER */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* LAYOUT EM COLUNA */
+  .layout {
+    flex-direction: column;
+  }
+
+  /* MENU MOBILE (OVERLAY VERTICAL) */
+  .menu-lateral {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    padding: 70px 30px;
+
+    background: url("assets/menu-lateral.png") repeat-y top center;
+    background-size: 100% auto;
+
+    transform: translateY(-100%);
+    transition: transform 0.35s ease;
+    z-index: 1000;
+  }
+
+  /* MENU ABERTO */
+  #menu-control:checked ~ .layout .menu-lateral {
+    transform: translateY(0);
+  }
+
+  .menu-lateral ul {
+    margin-top: 40px;
+  }
+
+  .menu-lateral a {
+    font-size: 1.1rem;
+  }
+
+  /* CONTEÚDO */
+  .conteudo {
+    padding: 25px 16px;
+  }
+
+  /* TOPO */
+  .topo {
+    padding: 40px 20px;
+  }
+
+  .topo h1 {
+    font-size: 2rem;
+  }
+
+  .topo p {
+    font-size: 0.95rem;
+  }
+
+  /* VITRINE MOBILE */
+  .vitrine {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+
+  .card {
+    padding: 12px;
+  }
+
+  .card h3 {
+    font-size: 0.9rem;
+  }
+
+  .card p {
+    font-size: 0.78rem;
+  }
+
+  .botao {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+}
+
+/* =====================================================
+   AJUSTE FINO — VITRINE NO TELEMÓVEL
+   (sem scroll horizontal)
+===================================================== */
+
+@media (max-width: 480px) {
+
+  .conteudo {
+    padding: 16px 12px;
+  }
+
+  .vitrine {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .card {
+    padding: 10px;
+    aspect-ratio: auto;
+  }
+
+  .card .imagem {
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  .card h3 {
+    font-size: 0.85rem;
+  }
+
+  .card p {
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+
+  .botao {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+}
+
+/* ===== BLOCO "PRECISA DE ALGO QUE NÃO ESTÁ AQUI?" ===== */
+
+.menu-contato {
+  background: linear-gradient(135deg, #e7dbf3, #d9edf2);
+  border-radius: 20px;
+  padding: 18px;
+  margin-top: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* TEXTO */
+.menu-contato p {
+  font-size: 0.95rem;
+  color: #5a4b81;
+  margin: 0 0 12px 0;
+}
+
+/* BOTÃO */
+.menu-contato a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #b8a6db;
+  color: #ffffff;
+  padding: 10px 0;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.menu-contato a:hover {
+  background-color: #a08ccc;
+}
