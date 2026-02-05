@@ -188,8 +188,90 @@ const produtos = [
     link: "https://go.hotmart.com/Y96202684L"
   },
   
+  {
+    id: "Volta às Aulas – Painel Arco-Íris",
+    titulo: "Volta às Aulas – Painel Arco-Íris",
+    categoria: "volta",
+    mes: 2,
+    tema: "volta as aulas",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/arco_iris.png",
+    link: "https://go.hotmart.com/I104221704G"
+  },
+
+  {
+    id: "Volta às Aulas – Painel Estrela",
+    titulo: "Volta às Aulas – Painel Estrela",
+    categoria: "volta",
+    mes: 2,
+    tema: "volta as aulas",
+    preco: "R$ 9,80",
+    publico: "Educadores",
+    imagem: "assets/painel_estrela.png",
+    link: "https://go.hotmart.com/I104172744S"
+  },
   
- 
+ {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "conscientizacao",
+    mes: 3,
+    tema: "marco_lilas",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  
+  {
+    id: "SÍNDROME DE DOWN -PAINEL - 2",
+    titulo: "SÍNDROME DE DOWN -PAINEL - 2",
+    categoria: "conscientizacao",
+    mes: 3,
+    tema: "sindrome de down",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/21_de_março_2.png",
+    link: "https://go.hotmart.com/C98629449J"
+  },
+
+  {
+    id: "Influenciadores com Síndrome de Down – Painel",
+    titulo: "Influenciadores com Síndrome de Down – Painel",
+    categoria: "conscientizacao",
+    mes: 3,
+    tema: "sindrome de down",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/influenciadores.png",
+    link: "https://go.hotmart.com/K104262963H"
+  },
+
+  {
+    id: "Inclusão de Sucesso – Painel Síndrome de Down",
+    titulo: "Inclusão de Sucesso – Painel Síndrome de Down",
+    categoria: "conscientizacao",
+    mes: 3,
+    tema: "sindrome de down",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "inclusao.png",
+    link: "https://go.hotmart.com/P104263778A"
+  },
+
+  {
+    id: "Painel Dia Mundial da Síndrome de Down",
+    titulo: "Painel Dia Mundial da Síndrome de Down",
+    categoria: "conscientizacao",
+    mes: 3,
+    tema: "sindrome de down",
+    preco: "R$ 10,00",
+    publico: "Educadores",
+    imagem: "assets/down.png",
+    link: "https://go.hotmart.com/G98629533G"
+  },
+  
 
 ];
 
