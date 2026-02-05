@@ -256,7 +256,7 @@ const produtos = [
     tema: "sindrome de down",
     preco: "R$ 8,90",
     publico: "Educadores",
-    imagem: "inclusao.png",
+    imagem: "assets/inclusao.png",
     link: "https://go.hotmart.com/P104263778A"
   },
 
