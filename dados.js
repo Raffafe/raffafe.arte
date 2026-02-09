@@ -272,6 +272,176 @@ const produtos = [
     link: "https://go.hotmart.com/G98629533G"
   },
   
+  {
+    id: "PAINEL DIA DA MULHER - 8 DE MARÇO",
+    titulo: "PAINEL DIA DA MULHER - 8 DE MARÇO",
+    categoria: "datas",
+    mes: 3,
+    tema: "Dia da mulher",
+    preco: "R$ 7,90",
+    publico: "Educadores",
+    imagem: "assets/8_de_marco.png",
+    link: "https://go.hotmart.com/D98319505H"
+  },
+
+  {
+    id: "PAINEL- ESPELHO,ESPELHO MEU...- DIA DA MULHER",
+    titulo: "PAINEL- ESPELHO,ESPELHO MEU...- DIA DA MULHER",
+    categoria: "datas",
+    mes: 3,
+    tema: "Dia da mulher",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/espelho.png",
+    link: "https://go.hotmart.com/S98319418Q"
+  },
+
+  {
+    id: "BAMBOLÊ PARA FOTO - DIA DA MULHER",
+    titulo: "BAMBOLÊ PARA FOTO - DIA DA MULHER",
+    categoria: "datas",
+    mes: 3,
+    tema: "Dia da mulher",
+    preco: "R$ 6,90",
+    publico: "Educadores",
+    imagem: "assets/mulher.png",
+    link: "https://go.hotmart.com/W98319077U"
+  },
+
+  {
+    id: "PAINEL DIA DA MULHER - MULHERES QUE MARCARAM A HISTÓRIA!",
+    titulo: "PAINEL DIA DA MULHER - MULHERES QUE MARCARAM A HISTÓRIA!",
+    categoria: "datas",
+    mes: 3,
+    tema: "Dia da mulher",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/8_de_marco_2.png",
+    link: "https://go.hotmart.com/Q98297731U"
+  },
+
+  {
+    id: "Mulheres que Marcaram a história – Caixa Informativa",
+    titulo: "Mulheres que Marcaram a história – Caixa Informativa",
+    categoria: "datas",
+    mes: 3,
+    tema: "Dia da mulher",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/8_de_marco_3.png",
+    link: "https://go.hotmart.com/B104284053H"
+  },
+
+  {
+    id: "LATA- TUDO SOBRE A MINHA ESCOLA",
+    titulo: "LATA- TUDO SOBRE A MINHA ESCOLA",
+    categoria: "datas",
+    mes: 3,
+    tema: "dia da escola",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/minha_escola.png",
+    link: "https://go.hotmart.com/B104284587N"
+  },
+
+  {
+    id: "Dia da Escola – 15 de março",
+    titulo: "Dia da Escola – 15 de março",
+    categoria: "datas",
+    mes: 3,
+    tema: "dia da escola",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/15_março.png",
+    link: "https://go.hotmart.com/L104303196A"
+  },
+
+  {
+    id: "Painel “O Outono Chegou”",
+    titulo: "Painel “O Outono Chegou”",
+    categoria: "datas",
+    mes: 3,
+    tema: "outono",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/outono.png",
+    link: "https://go.hotmart.com/W104304903N"
+  },
+
+  {
+    id: "DIA INTERNACIONAL CONTRA A DISCRIMINAÇÃO RACIAL - PAINEL",
+    titulo: "DIA INTERNACIONAL CONTRA A DISCRIMINAÇÃO RACIAL - PAINEL",
+    categoria: "datas",
+    mes: 3,
+    tema: "21 de março",
+    preco: "R$ 14,90",
+    publico: "Educadores",
+    imagem: "assets/21.png",
+    link: "https://go.hotmart.com/P96560122I"
+  },
+
+  {
+    id: "PAINEL - DIA NACIONAL DA LUTA CONTRA A DISCRIMINAÇÃO RACIAL- 2",
+    titulo: "PAINEL - DIA NACIONAL DA LUTA CONTRA A DISCRIMINAÇÃO RACIAL- 2",
+    categoria: "datas",
+    mes: 3,
+    tema: "21 de março",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/21_1.png",
+    link: "https://go.hotmart.com/X96560142Q"
+  },
+
+  {
+    id: "PAINEL 2 - 22 DE MARÇO - DIA MUNDIAL DA ÁGUA",
+    titulo: "PAINEL 2 - 22 DE MARÇO - DIA MUNDIAL DA ÁGUA",
+    categoria: "datas",
+    mes: 3,
+    tema: "dia mundial da água",
+    preco: "R$ 10,00",
+    publico: "Educadores",
+    imagem: "assets/agua_1.png",
+    link: "https://go.hotmart.com/A104305767Q"
+  },
+
+  {
+    id: "DE ONDE VEM A CHUVA? - DIA MUNDIAL DA ÁGUA",
+    titulo: "DE ONDE VEM A CHUVA? - DIA MUNDIAL DA ÁGUA",
+    categoria: "datas",
+    mes: 3,
+    tema: "dia mundial da água",
+    preco: "R$ 11,90",
+    publico: "Educadores",
+    imagem: "assets/agua_2.png",
+    link: "https://go.hotmart.com/S104306065S"
+  },
+  
+  {
+    id: "KIT Dia Mundial da Água",
+    titulo: "KIT Dia Mundial da Água",
+    categoria: "datas", 
+    mes: 3,
+    tema: "dia mundial da água",
+    preco: "R$ 10,00",
+    publico: "Educadores",
+    imagem: "assets/kit_agua.png",
+    link: "https://go.hotmart.com/F104349849R"
+  },
+
+  {
+    id: "Painel Dia do Circo",
+    titulo: "Painel Dia do Circo",
+    categoria: "datas",
+    mes: 3,
+    tema: "dia do circo",
+    preco: "R$ 9,80",
+    publico: "Educadores",
+    imagem: "assets/circo.png",
+    link: "https://go.hotmart.com/B104350633W"
+  },
+  
+  
+  
 
 ];
 
