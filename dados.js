@@ -331,6 +331,18 @@ const produtos = [
     imagem: "assets/8_de_marco_3.png",
     link: "https://go.hotmart.com/B104284053H"
   },
+  
+  {
+    id: "Mulheres que Florescem – Painel Dia da Mulher",
+    titulo: "Mulheres que Florescem – Painel Dia da Mulher",
+    categoria: "datas",
+    mes: 3,
+    tema: "Dia da Mulher",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/mulheres.png",
+    link: "https://go.hotmart.com/E104594415X"
+  },
 
   {
     id: "LATA- TUDO SOBRE A MINHA ESCOLA",
@@ -439,6 +451,103 @@ const produtos = [
     imagem: "assets/circo.png",
     link: "https://go.hotmart.com/B104350633W"
   },
+  
+  {
+    id: "Calendário Tema Lápis para Varão (até 2030)",
+    titulo: "Calendário Tema Lápis para Varão (até 2030)",
+    categoria: "kits",
+    mes: 3,
+    tema: "Calendário",
+    preco: "R$ 7,99",
+    publico: "Educadores",
+    imagem: "assets/calendario_lapis.png",
+    link: "https://go.hotmart.com/R104529324J"
+  },
+
+  {
+    id: "Painel Frevo – Patrimônio Cultural Brasileiro 🇧🇷",
+    titulo: "Painel Frevo – Patrimônio Cultural Brasileiro 🇧🇷",
+    categoria: "datas",
+    mes: 3,
+    tema: "Frevo",
+    preco: "R$ 12,00",
+    publico: "Educadores",
+    imagem: "assets/painel_frevo.png",
+    link: "https://go.hotmart.com/L104529817T"
+  },
+  
+  {
+    id: "Painel Celular na Escola – Desconectar para Conectar",
+    titulo: "Painel Celular na Escola – Desconectar para Conectar",
+    categoria: "conscientizacao",
+    mes: 3,
+    tema: "Celular na Escola",
+    preco: "R$ 12,00",
+    publico: "Educadores",
+    imagem: "assets/Painel_Celular.png",
+    link: "https://go.hotmart.com/C104530763A"
+  },
+
+  {
+    id: "Painel Gravidez na Adolescência",
+    titulo: "Painel Gravidez na Adolescência",
+    categoria: "conscientizacao",
+    mes: 3,
+    tema: "Gravidez na Adolescência",
+    preco: "R$ 11,99",
+    publico: "Educadores",
+    imagem: "assets/Painel_gravidez.png",
+    link: "https://go.hotmart.com/N104530970A"
+  },
+  
+  {
+    id: "Painel Gigante para Acolhimento – “Ei, Psiu” | Volta às Aulas",
+    titulo: "Painel Gigante para Acolhimento – “Ei, Psiu” | Volta às Aulas",
+    categoria: "volta",
+    mes: 3,
+    tema: "Volta às Aulas",
+    preco: "R$ 12,00",
+    publico: "Educadores",
+    imagem: "assets/Ei_Psiu.png",
+    link: "https://go.hotmart.com/L104531142K"
+  },
+
+  {
+    id: "Painel As 12 Palavras Mágicas – Tema Lápis",
+    titulo: "Painel As 12 Palavras Mágicas – Tema Lápis",
+    categoria: "acolhe",
+    mes: 3,
+    tema: "Palavras Mágicas",
+    preco: "R$ 7,99",
+    publico: "Educadores",
+    imagem: "assets/magicas.png",
+    link: "https://go.hotmart.com/A104593347W"
+  },
+
+  {
+    id: "Fichas de Acolhimento – Painel Volta às Aulas",
+    titulo: "Fichas de Acolhimento – Painel Volta às Aulas",
+    categoria: "volta",
+    mes: 3,
+    tema: "Volta às Aulas",
+    preco: "R$ 7,99",
+    publico: "Educadores",
+    imagem: "assets/bem_vindo.png",
+    link: "https://go.hotmart.com/D104593802K"
+  },
+  
+  {
+    id: "ABRIL VERDE – Painel Educativo",
+    titulo: "ABRIL VERDE – Painel Educativo",
+    categoria: "conscientizacao",
+    mes: 4,
+    tema: "ABRIL VERDE",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/abril_verde.png",
+    link: "https://go.hotmart.com/R98923478M"
+  },
+  
   
   
   
