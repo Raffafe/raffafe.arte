@@ -536,6 +536,19 @@ const produtos = [
     link: "https://go.hotmart.com/D104593802K"
   },
   
+   {
+    id: "PAINEL SAÚDE E NUTRIÇÃO – 31 DE MARÇO",
+    titulo: "PAINEL SAÚDE E NUTRIÇÃO – 31 DE MARÇO",
+    categoria: "datas",
+    mes: 3,
+    tema: "saude e nutrição",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/saude_março.png",
+    link: "https://go.hotmart.com/Q98924396C"
+  },
+
+
   {
     id: "ABRIL VERDE – Painel Educativo",
     titulo: "ABRIL VERDE – Painel Educativo",
@@ -547,9 +560,188 @@ const produtos = [
     imagem: "assets/abril_verde.png",
     link: "https://go.hotmart.com/R98923478M"
   },
+
+  {
+    id: "KIT AUTISMO – ATIVIDADES LÚDICAS PARA O DIA 2 DE ABRIL",
+    titulo: "KIT AUTISMO – ATIVIDADES LÚDICAS PARA O DIA 2 DE ABRIL",
+    categoria: "conscientizacao",
+    mes: 4,
+    tema: "Dia Mundial de Conscientização do Autismo",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/kit_autismo.png",
+    link: "https://go.hotmart.com/M98924084X"
+  },
+
+  {
+    id: "PAINEL AUTISMO – DIA MUNDIAL DE CONSCIENTIZAÇÃO",
+    titulo: "PAINEL AUTISMO – DIA MUNDIAL DE CONSCIENTIZAÇÃO",
+    categoria: "conscientizacao",
+    mes: 4,
+    tema: "Dia Mundial de Conscientização do Autismo",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/painel_autismo.png",
+    link: "https://go.hotmart.com/L98628675N"
+  },
   
+   {
+    id: "PAINEL ELEFANTE – CONSCIENTIZAÇÃO DO AUTISMO",
+    titulo: "PAINEL ELEFANTE – CONSCIENTIZAÇÃO DO AUTISMO",
+    categoria: "conscientizacao",
+    mes: 4,
+    tema: "Dia Mundial de Conscientização do Autismo",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/autismo_alefante.png",
+    link: "https://go.hotmart.com/S96141183B"
+  },
+
+  {
+    id: "PAINEL DIA MUNDIAL DA SAÚDE – 7 DE ABRIL",
+    titulo: "PAINEL DIA MUNDIAL DA SAÚDE – 7 DE ABRIL",
+    categoria: "datas",
+    mes: 4,
+    tema: "saude e nutrição",
+    preco: "R$ 9,80",
+    publico: "Educadores",
+    imagem: "assets/saude_abril.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+
+  {
+    id: "PIRÂMIDE ALIMENTAR – PAINEL EDUCATIVO",
+    titulo: "PIRÂMIDE ALIMENTAR – PAINEL EDUCATIVO",
+    categoria: "datas",
+    mes: 4,
+    tema: "saude e nutrição",
+    preco: "R$ 11,90",
+    publico: "Educadores",
+    imagem: "assets/piramide_alimentar.png",
+    link: "https://go.hotmart.com/N98924133H"
+  },
+
+  {
+    id: "NÃO É BRINCADEIRA ,É BULLYING! - PAINEL",
+    titulo: "MARÇO LILÁS-PaineNÃO É BRINCADEIRA ,É BULLYING! - PAINELl",
+    categoria: "datas",
+    mes: 4,
+    tema: "combate ao bullying",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/bullying.png",
+    link: "https://go.hotmart.com/Y98987938Y"
+  },
+
+  {
+    id: "TODOS CONTRA O BULLYING - CAIXA",
+    titulo: "TODOS CONTRA O BULLYING - CAIXA",
+    categoria: "datas",
+    mes: 4,
+    tema: "combate ao bullying",
+    preco: "R$ 11,90",
+    publico: "Educadores",
+    imagem: "assets/bullying_caixa.png",
+    link: "https://go.hotmart.com/O98987948I"
+  },
+
+  /*{
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "combate ao bullying",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },*/
+
+  {
+    id: "DIA NACIONAL DA CONSERVAÇÃO DO SOLO",
+    titulo: "DIA NACIONAL DA CONSERVAÇÃO DO SOLO",
+    categoria: "datas",
+    mes: 4,
+    tema: "Conservação do Solo",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/solo.png",
+    link: "https://go.hotmart.com/V98988608G?dp=1"
+  },
+
+  {
+    id: "DIA NACIONAL DO LIVRO INFANTIL- PAINEL 2",
+    titulo: "DIA NACIONAL DO LIVRO INFANTIL- PAINEL 2",
+    categoria: "datas",
+    mes: 4,
+    tema: "livro_infantil",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/livro_infantil.png",
+    link: "https://go.hotmart.com/M98988975M"
+  },
+
+  {
+    id: "DIA NACIONAL DO LIVRO INFANTIL - PAINEL",
+    titulo: "DIA NACIONAL DO LIVRO INFANTIL - PAINEL",
+    categoria: "datas",
+    mes: 4,
+    tema: "livro_infantil",
+    preco: "R$ 7,90",
+    publico: "Educadores",
+    imagem: "assets/livro_infantil_1.png",
+    link: "https://go.hotmart.com/Q98988889I"
+  },
+
+  {
+    id: "ABRIL INDÍGENA: KIT PRONTO QUE ENCANTA A TURMA!",
+    titulo: "ABRIL INDÍGENA: KIT PRONTO QUE ENCANTA A TURMA!",
+    categoria: "datas",
+    mes: 4,
+    tema: "Dia dos Povos Indígenas",
+    preco: "R$ 11,90",
+    publico: "Educadores",
+    imagem: "assets/caixa_indigena.png",
+    link: "https://go.hotmart.com/E98883486L"
+  },
   
-  
+  {
+    id: "ANTES DA COROA, JÁ EXISTIA O COCAR",
+    titulo: "ANTES DA COROA, JÁ EXISTIA O COCAR",
+    categoria: "datas",
+    mes: 4,
+    tema: "Dia dos Povos Indígenas",
+    preco: "R$ 9,90",
+    publico: "Educadores",
+    imagem: "assets/cocar.png",
+    link: "https://go.hotmart.com/X98881740X"
+  },
+
+  {
+    id: "BRINCADEIRAS INDÍGENAS: APRENDER BRINCANDO!",
+    titulo: "BRINCADEIRAS INDÍGENAS: APRENDER BRINCANDO!",
+    categoria: "datas",
+    mes: 4,
+    tema: "Dia dos Povos Indígenas",
+    preco: "R$ 11,90",
+    publico: "Educadores",
+    imagem: "assets/brincadeiras_indigenas.png",
+    link: "https://go.hotmart.com/N98883296Q"
+  },
+
+  {
+    id: "DIA DOS POVOS INDÍGENAS – PAINEL IMPACTANTE E COMPLETO!",
+    titulo: "DIA DOS POVOS INDÍGENAS – PAINEL IMPACTANTE E COMPLETO!",
+    categoria: "datas",
+    mes: 4,
+    tema: "Dia dos Povos Indígenas",
+    preco: "R$ 8,90",
+    publico: "Educadores",
+    imagem: "assets/painel_ind_1.png",
+    link: "https://go.hotmart.com/T98883722B"
+  },
+   
+ 
   
 
 ];
