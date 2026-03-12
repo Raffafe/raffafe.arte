@@ -740,7 +740,108 @@ const produtos = [
     imagem: "assets/painel_ind_1.png",
     link: "https://go.hotmart.com/T98883722B"
   },
-   
+  
+  {
+    id: "DIA NACIONAL LIBRAS - PAINEL",
+    titulo: "DIA NACIONAL LIBRAS - PAINEL",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/libras_1.png",
+    link: "https://go.hotmart.com/D104834352R"
+  },
+
+  {
+    id: "DIA NACIONAL DA LIBRAS -BAMBOLÊ PARA FOTO",
+    titulo: "DIA NACIONAL DA LIBRAS -BAMBOLÊ PARA FOTO",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 6,90",
+    publico: "Educadores",
+    imagem: "assets/libras_2.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  {
+    id: "MARÇO LILÁS-Painel",
+    titulo: "MARÇO LILÁS-Painel",
+    categoria: "datas",
+    mes: 4,
+    tema: "libras",
+    preco: "R$ 10,90",
+    publico: "Educadores",
+    imagem: "assets/março_lilas.png",
+    link: "https://go.hotmart.com/D98319249R"
+  },
+  
  
   
 
